@@ -1,7 +1,7 @@
 .header{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items:center;
     width: 75%;
     height: 10em;
     color: rgb(200, 67, 5);
@@ -11,4 +11,15 @@
     position:absolute;
     top:0.1em;
     left: 88px;
+}
+.github{
+    all:unset;
+    cursor:pointer;
+    margin-right: 30px;
+    font-size:medium;
+    color:aqua;
+    transition:1s;
+}
+.github:hover{
+    color:rgb(242, 9, 9);
 }
