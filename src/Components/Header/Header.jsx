@@ -1,15 +1,24 @@
 import React from 'react'
 import "./Header.scss"
-import {NavLink} from 'react-router-dom'
+import img2 from "../../assets/img2.png"
+import img3 from "../../assets/img3.png"
+import img4 from "../../assets/sergio.jpg"
+import { NavLink } from 'react-router-dom'
 
-const Header = props =>{
 
-    return(
+const Header = props => {
+
+    return (
         <div className="header">
-            <p>
-                <a className="github" href='https://github.com/sergiioss' target="blank">Github</a>
-                <a className="github" href='https://www.linkedin.com/in/sergiosotosousa' target="blank">Linkedin</a>
-            </p>
+            <div className="photo">
+                <img className="iconName" src={img4} />
+            </div>
+            <div>
+                <p>
+                    <a className="github" href='https://github.com/sergiioss' target="blank"><img className="icon" href='https://github.com/sergiioss' src={img2} />Github</a>
+                    <a className="github" href='https://www.linkedin.com/in/sergiosotosousa' target="blank"><img className="icon" src={img3} />Linkedin</a>
+                </p>
+            </div>
         </div>
     )
 }

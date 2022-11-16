@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items:center;
     width: 75%;
     height: 10em;
@@ -22,4 +22,25 @@
 }
 .github:hover{
     color:rgb(242, 9, 9);
+}
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:2em;
+}
+.icon{
+    border-radius: 50%;
+    background-color:rgb(240, 37, 10);
+    width: 1.5em;
+    height: 1.5em;
+}
+.icon:hover{
+    background-color: aquamarine;
+}
+.iconName{
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
 }
