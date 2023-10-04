@@ -3,7 +3,6 @@ import "./Header.scss"
 import img2 from "../../assets/img2.png"
 import img3 from "../../assets/img3.png"
 import img4 from "../../assets/sergio.jpg"
-import { NavLink } from 'react-router-dom'
 
 
 const Header = props => {

@@ -10,7 +10,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position:absolute;
     top:0.1em;
-    left: 88px;
+    margin-top:1rem;
 }
 .github{
     all:unset;
@@ -19,6 +19,7 @@
     font-size:medium;
     color:aqua;
     transition:1s;
+    
 }
 .github:hover{
     color:rgb(242, 9, 9);
@@ -35,6 +36,7 @@
     background-color:rgb(240, 37, 10);
     width: 1.5em;
     height: 1.5em;
+    margin-right:1rem;
 }
 .icon:hover{
     background-color: aquamarine;
