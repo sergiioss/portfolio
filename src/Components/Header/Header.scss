@@ -1,48 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items:center;
-    width: 75%;
     height: 10em;
+    width:100%;
     color: rgb(200, 67, 5);
     font-weight: bolder;
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position:absolute;
-    top:0.1em;
-    margin-top:1rem;
-}
-.github{
-    all:unset;
-    cursor:pointer;
-    margin-right: 30px;
-    font-size:medium;
-    color:aqua;
-    transition:1s;
-    
-}
-.github:hover{
-    color:rgb(242, 9, 9);
-}
-.photo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-size:2em;
-}
-.icon{
-    border-radius: 50%;
-    background-color:rgb(240, 37, 10);
-    width: 1.5em;
-    height: 1.5em;
-    margin-right:1rem;
-}
-.icon:hover{
-    background-color: aquamarine;
-}
-.iconName{
-    border-radius: 50%;
-    width: 5em;
-    height: 5em;
+    width:100%;
+    box-sizing: border-box;
+    .row, .col{
+        margin:0;
+        padding:0;
+    }
+    .photo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size:2em;
+        .iconName{
+            border-radius: 50%;
+            width: 3em;
+            height: 3em;
+            object-fit: cover;
+        }
+    }
+    .links{
+        text-align:right;
+        padding-left:0;
+        padding-right:0;
+        .github{
+            all:unset;
+            cursor:pointer;
+            margin-right: 30px;
+            font-size:medium;
+            color:aqua;
+            transition:1s;
+            .icon{
+                border-radius: 50%;
+                background-color:rgb(240, 37, 10);
+                width: 1.5em;
+                height: 1.5em;
+                margin-right:1rem;
+            }
+        }
+        .github:hover{
+            color:red;
+            .icon{
+                background-color: aquamarine;
+            }
+        }
+    }
 }

@@ -1,30 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+
+*{
+    margin:0;
+    padding:0;
+}
 .home{
-    display: flex;
-    justify-content: flex-start;
-    align-items: left;
-    flex-direction:column;
-    width: 75%;
-    height: 20em;
-    color: rgb(200, 67, 5);
-    font-weight: bolder;
-    position:absolute;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    top:175px;
-}
-.contain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    text-align:justify;
-}
-.name{
-    font-size:2em;
-    padding-bottom:2em;
-}
-.paragraph{
-    margin-right: 30px;
-}
-span{
-    font-family:cursive;
+    width:100%;
+    box-sizing: border-box;
+    .name{
+        font-family: Copperplate, Copperplate Gothic Light, fantasy;
+        font-size: 150%;
+        padding-left:0;
+        padding-right:0;
+        margin-bottom:2rem;
+        .title{
+            font-family:Lucida Bright, Georgia, serif;
+            font-size: 150%;
+            margin-bottom:2rem;
+            color:red;
+        }
+    }
+    .contain{
+        width:100%;
+        box-sizing: border-box;
+        margin:0;
+        padding:0;
+        .paragraph{
+            padding:0;
+            margin:0;
+        }
+        .mid{
+            padding-left:1rem;
+            padding-right:1rem;
+        }
+    }
+    
 }

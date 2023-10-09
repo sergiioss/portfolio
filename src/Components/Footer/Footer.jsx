@@ -1,14 +1,28 @@
-import React from 'react'
 import "./Footer.scss"
+import {Row} from 'react-bootstrap'
 
-const Footer = props =>{
+const Footer = () =>{
 
     return(
-        <div className="footer">
+        <Row className="footer">
             <p>
                SOY EL FOOTER
             </p>
-        </div>
+            <Row className="area" >
+                <ul className="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </Row >
+        </Row>
     )
 }
 export default Footer
