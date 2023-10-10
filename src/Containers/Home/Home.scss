@@ -1,20 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Open+Sans:wght@300&family=Pixelify+Sans:wght@600&display=swap');
+@import 'variables/styles';
 
 *{
     margin:0;
     padding:0;
 }
 .home{
-    width:100%;
+    max-width:100%;
     box-sizing: border-box;
-    height: 100%;
     .name{
         font-family: Copperplate, Copperplate Gothic Light, fantasy;
         font-size: 150%;
         padding-left:0;
         padding-right:0;
         margin-bottom:2rem;
+        padding-left:1rem;
         .title{
             font-family: 'Kanit', sans-serif;
             font-size: 90%;
@@ -23,7 +24,6 @@
         }
     }
     .contain{
-        width:100%;
         box-sizing: border-box;
         margin:0;
         padding:0;
@@ -31,6 +31,37 @@
             font-family:'Kanit', sans-serif;
             padding:0;
             margin:0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            box-sizing: border-box;
+            padding:1rem;
+            position:relative;
+            .img{
+                width:90%;
+                object-fit: contain;
+            }
+            .links{
+                .link-image-demo{
+                    position:absolute;
+                    bottom:16px;
+                    left:16px;
+                    text-decoration: unset;
+                    color: $black;
+                    text-align: center;
+                    width: 47%;
+                }
+                .link-image-github{
+                    position:absolute;
+                    bottom:16px;
+                    right:7px;
+                    text-decoration: unset;
+                    color: $black;
+                    text-align: center;
+                    width: 47%;
+                }
+            }
         }
         .mid{
             padding-left:1rem;
