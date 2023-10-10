@@ -41,27 +41,32 @@
             .img{
                 width:90%;
                 object-fit: contain;
+                border:3px solid red;
             }
-            .links{
                 .link-image-demo{
                     position:absolute;
-                    bottom:16px;
-                    left:16px;
+                    bottom:30px;
+                    left:50px;
                     text-decoration: unset;
                     color: $black;
                     text-align: center;
-                    width: 47%;
+                    border:3px solid red;
+                    border-radius: 5px;
+                    background: rgb(217, 209, 209);
+                    width: 10rem;
                 }
                 .link-image-github{
                     position:absolute;
-                    bottom:16px;
-                    right:7px;
+                    bottom:30px;
+                    right:50px;
                     text-decoration: unset;
                     color: $black;
                     text-align: center;
-                    width: 47%;
+                    border:3px solid red;
+                    border-radius: 5px;
+                    background: rgb(235, 226, 226);
+                    width: 10rem;
                 }
-            }
         }
         .mid{
             padding-left:1rem;
