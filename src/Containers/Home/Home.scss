@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Open+Sans:wght@300&family=Pixelify+Sans:wght@600&display=swap');
 
 *{
     margin:0;
@@ -7,6 +8,7 @@
 .home{
     width:100%;
     box-sizing: border-box;
+    height: 100%;
     .name{
         font-family: Copperplate, Copperplate Gothic Light, fantasy;
         font-size: 150%;
@@ -14,10 +16,10 @@
         padding-right:0;
         margin-bottom:2rem;
         .title{
-            font-family:Lucida Bright, Georgia, serif;
-            font-size: 150%;
+            font-family: 'Kanit', sans-serif;
+            font-size: 90%;
             margin-bottom:2rem;
-            color:red;
+            color:black;
         }
     }
     .contain{
@@ -26,6 +28,7 @@
         margin:0;
         padding:0;
         .paragraph{
+            font-family:'Kanit', sans-serif;
             padding:0;
             margin:0;
         }
@@ -34,5 +37,4 @@
             padding-right:1rem;
         }
     }
-    
 }
