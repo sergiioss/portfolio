@@ -13,6 +13,10 @@ body{
         background-image:url(https://fondosmil.co/fondo/52739.jpg);
         opacity:0.1;
     }
+    #root{
+        z-index:-1;
+        background-color:rgb(86, 103, 78);
+    }
 }
 .App{
     width:100vw;
