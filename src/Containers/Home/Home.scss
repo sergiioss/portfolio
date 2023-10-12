@@ -153,25 +153,9 @@
 body{
     #root{
        .App{
-        #projects{
-            display: flex;
-            justify-content: flex-start;
-            flex-direction: row;
-            align-items: center;
-            position:relative;
-            width: 100vw;
-            height: 100vh;
-            background:$white;
-            .title{
-                width: 80%;
-                margin-left: 1rem;
-                margin-bottom: 0;
-                padding:0;
-                font-family: 'Kanit', sans-serif;
-                font-size:2rem;
-                margin-bottom:2rem;
-                color:black;
-            }
+        #about{
+            width: 100%;
+            background: linear-gradient(180deg, rgba(86,103,78,1) 20%, rgba(58,131,76,1) 45%, rgba(66,134,76,1) 66%, rgba(56,107,46,1) 84%, rgba(86,103,78,1) 100%);
         }
        } 
     }

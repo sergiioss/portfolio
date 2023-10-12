@@ -57,11 +57,28 @@ const Home = () => {
                     <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank">Demo</NavLink>
                     <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank">Github</NavLink>
                 </Col>
-                <NavLink href="#projects" className="icon-arrow-down"></NavLink>
+                <NavLink href="#about" className="icon-arrow-down"></NavLink>
             </Row>
         </Row>
-        <Row id="projects" xs={12} sm={12} md={12} xl={12} xxl={12}>
-
+        <Row id="about" xs={12} sm={12} md={12} xl={12} xxl={12}>
+            <Row>
+                <h1>About</h1>
+            </Row>
+            <Row>
+                <span>
+                    <b>Hola, soy Sergio.</b>
+                    <br></br>
+                    ¡Un apasionado del desarrollo web en constante evolución y aprendizaje! Mi viaje hacia el mundo del desarrollo web comenzó con un trasfondo completamente diferente en mi anterior trabajo en Novatec, donde nos enseñaron a hacer programas para robots FANUC, donde se genero mi entusiasmo por aprender este emocionante campo.
+                </span>
+                <span>
+                    Mi objetivo es seguir creciendo como desarrollador web, colaborar en proyectos emocionantes y contribuir al éxito de equipos y clientes. Estoy entusiasmado por la oportunidad de aplicar mis habilidades y mi pasión para crear experiencias web excepcionales.
+                </span>
+                <h3>EXPERIENCE</h3>
+                <h3>SKILLS</h3>
+                <span>
+                    UI/UX Design / Strategy / Product Management / User Research / Agile Methodologies / Collaboration / Design Sprints / Design Systems / HTML and CSS / CMS Design & Architecture / Webflow Development / Framer Development / Photography / Graphic Design
+                </span>
+            </Row>
         </Row>
         </>
     )
