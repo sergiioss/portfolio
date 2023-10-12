@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Mystery+Quest");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Open+Sans:wght@300&family=Oswald:wght@500&family=Pixelify+Sans:wght@600&family=Yellowtail&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Open+Sans:wght@300&family=Pixelify+Sans:wght@600&display=swap');
 @import 'variables/styles';
 
@@ -21,17 +21,32 @@
     max-width:100%;
     box-sizing: border-box;
     .name{
-        font-family: Copperplate, Copperplate Gothic Light, fantasy;
         font-size: 150%;
-        padding-left:0;
-        padding-right:0;
-        margin-bottom:2rem;
-        padding-left:1rem;
+        .text-name{
+            color:#0fffa2;
+            font-family: 'Yellowtail', sans-serif;;
+            padding-left:0;
+            padding-right:0;
+            padding-left:0.7rem;
+            font-size:1.7rem;
+        }
         .title{
             font-family: 'Kanit', sans-serif;
-            font-size: 90%;
-            margin-bottom:2rem;
-            color:black;
+            margin-bottom:0.2rem;
+            color:#0fffa2;
+        }
+        .subtitle{
+            .text-subtitle{
+                font-family: 'Kanit', sans-serif;
+                color:$black;
+                .hr{
+                    width: 99%;
+                    margin:0;
+                    padding:0;
+                    font-size: 2rem;
+                    border:3px solid $black;
+                }
+            }
         }
     }
     /* Primer Bloque de la pagina "HOME" */
@@ -45,7 +60,7 @@
             position:absolute;
             right: 47%;
             top:620px;
-            color: black;
+            color: #0fffa2;
             font-size: 2rem;
             text-align: center;
             animation-name:moveArrow;
@@ -71,32 +86,62 @@
             .img{
                 width:90%;
                 object-fit: contain;
-                border:3px solid red;
+                border:3px solid #07f79b;
+                -webkit-box-shadow: -1px 4px 10px 7px rgba(0,0,0,0.75);
+                -moz-box-shadow: -1px 4px 10px 7px rgba(0,0,0,0.75);
+                box-shadow: -1px 4px 10px 7px rgba(0,0,0,0.75);  
+                border-radius: 7px;      
             }
-                .link-image-demo{
-                    position:absolute;
-                    bottom:30px;
-                    left:50px;
-                    text-decoration: unset;
-                    color: $black;
-                    text-align: center;
-                    border:3px solid red;
-                    border-radius: 5px;
-                    background: rgb(217, 209, 209);
-                    width: 30%;
-                }
-                .link-image-github{
-                    position:absolute;
-                    bottom:30px;
-                    right:50px;
-                    text-decoration: unset;
-                    color: $black;
-                    text-align: center;
-                    border:3px solid red;
-                    border-radius: 5px;
-                    background: rgb(235, 226, 226);
-                    width: 30%;
-                }
+            .link-image-demo{
+                position:absolute;
+                bottom:30px;
+                left:50px;
+                text-decoration: unset;
+                color: $black;
+                text-align: center;
+                border:3px solid $black;
+                border-radius: 5px;
+                background: linear-gradient(90deg, rgba(2,121,32,1) 20%, rgba(20,209,47,1) 50%, rgba(56,107,46,1) 79%, rgba(26,168,47,1) 100%);
+                width: 30%;
+                z-index:-1;
+            }
+            .link-image-demo:hover{
+                -webkit-box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+                box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+                font-size:1.2rem;
+            }
+            .link-image-github{
+                position:absolute;
+                bottom:30px;
+                right:50px;
+                text-decoration: unset;
+                color: $black;
+                text-align: center;
+                border:3px solid $black;
+                border-radius: 5px;
+                background: linear-gradient(90deg, rgba(2,121,32,1) 20%, rgba(20,209,47,1) 50%, rgba(56,107,46,1) 79%, rgba(26,168,47,1) 100%);
+                width: 30%;
+                z-index:-1;
+                    
+            }
+            .link-image-github:hover{
+                -webkit-box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+                box-shadow: 0px 2px 5px 6px rgba(0,0,0,0.75);
+                font-size:1.2rem;
+            }
+        }
+        .paragraph:hover{
+            .img{
+                opacity:0.4;
+                z-index:0;
+            }
+            .link-image-github, .link-image-demo{
+                position:absolute;
+                border:3px solid #0fffa2;
+                z-index:1;
+            }
         }
         .mid{
             padding-left:1rem;
@@ -109,10 +154,24 @@ body{
     #root{
        .App{
         #projects{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            align-items: center;
             position:relative;
             width: 100vw;
             height: 100vh;
             background:$white;
+            .title{
+                width: 80%;
+                margin-left: 1rem;
+                margin-bottom: 0;
+                padding:0;
+                font-family: 'Kanit', sans-serif;
+                font-size:2rem;
+                margin-bottom:2rem;
+                color:black;
+            }
         }
        } 
     }
