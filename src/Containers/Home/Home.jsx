@@ -6,6 +6,7 @@ import img4 from '../../assets/img4.png'
 const Home = () => {
 
     return (
+        <>
         <Row className="home">
             <Col className="name">
                 SERGIO SOTO SOUSA
@@ -49,10 +50,11 @@ const Home = () => {
                 </Col>
                 <NavLink href="#projects" className="icon-arrow-down"></NavLink>
             </Row>
-            <Row id="projects">
-                    
-            </Row>
         </Row>
+        <Row id="projects" xs={12} sm={12} md={12} xl={12} xxl={12}>
+                    
+        </Row>
+        </>
     )
 }
 export default Home

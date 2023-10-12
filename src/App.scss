@@ -16,6 +16,7 @@ body{
     #root{
         z-index:-1;
         background-color:rgb(86, 103, 78);
+        overflow: hidden;
     }
 }
 .App{
