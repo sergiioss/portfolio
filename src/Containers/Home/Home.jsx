@@ -112,7 +112,7 @@ const Home = () => {
                     <Col className="card-front-html">
                     </Col>
                     <Col className="card-back-html">
-                        <Row className="body-card-back-html">
+                        <Row className="body-card-back">
                             <h1>HTML5</h1>
                         </Row>
                     </Col>
@@ -123,7 +123,7 @@ const Home = () => {
                     <Col className="card-front-css">
                     </Col>
                     <Col className="card-back-css">
-                        <Row className="body-card-back-css">
+                        <Row className="body-card-back">
                             <h1>CSS</h1>
                         </Row>
                     </Col>
@@ -134,7 +134,7 @@ const Home = () => {
                     <Col className="card-front-js">
                     </Col>
                     <Col className="card-back-js">
-                        <Row className="body-card-back-js">
+                        <Row className="body-card-back">
                             <h1>JavaScript</h1>
                         </Row>
                     </Col>
@@ -145,7 +145,7 @@ const Home = () => {
                     <Col className="card-front-react">
                     </Col>
                     <Col className="card-back-react">
-                        <Row className="body-card-back-react">
+                        <Row className="body-card-back">
                             <h1>React</h1>
                         </Row>
                     </Col>
@@ -156,7 +156,7 @@ const Home = () => {
                     <Col className="card-front-github">
                     </Col>
                     <Col className="card-back-github">
-                        <Row className="body-card-back-github">
+                        <Row className="body-card-back">
                             <h1>Github</h1>
                         </Row>
                     </Col>
@@ -167,7 +167,7 @@ const Home = () => {
                     <Col className="card-front-nodejs">
                     </Col>
                     <Col className="card-back-nodejs">
-                        <Row className="body-card-back-nodejs">
+                        <Row className="body-card-back">
                             <h1>Node JS</h1>
                         </Row>
                     </Col>
@@ -178,7 +178,7 @@ const Home = () => {
                     <Col className="card-front-redux">
                     </Col>
                     <Col className="card-back-redux">
-                        <Row className="body-card-back-redux">
+                        <Row className="body-card-back">
                             <h1>Redux</h1>
                         </Row>
                     </Col>
@@ -189,7 +189,7 @@ const Home = () => {
                     <Col className="card-front-mysql">
                     </Col>
                     <Col className="card-back-mysql">
-                        <Row className="body-card-back-mysql">
+                        <Row className="body-card-back">
                             <h1>MySQL</h1>
                         </Row>
                     </Col>

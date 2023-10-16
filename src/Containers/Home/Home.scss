@@ -244,32 +244,12 @@ body{
                 -moz-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
                 .card-back-html, .card-back-css, .card-back-js, .card-back-react, .card-back-github, .card-back-nodejs, .card-back-redux, .card-back-mysql{
-                    position:absolute;
-                    top:80px;
-                    left:49px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
                     backface-visibility: hidden;
                     transform-style: preserve-3d;
-                }
-                .card-back-css{
-                    left: 78px;
-                }
-                .card-back-js{
-                    left: 22px;
-                }
-                .card-back-react{
-                    left: 64px;
-                }
-                .card-back-github{
-                    left: 53px;
-                }
-                .card-back-nodejs{
-                    left: 38px;
-                }
-                .card-back-redux{
-                    left: 58px;
-                }
-                .card-back-mysql{
-                    left: 50px;
                 }
                 .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
                     position:absolute;
