@@ -154,10 +154,85 @@ body{
     #root{
        .App{
         #about{
-            width: 100%;
-            background: linear-gradient(180deg, rgba(86,103,78,1) 20%, rgba(58,131,76,1) 45%, rgba(66,134,76,1) 66%, rgba(56,107,46,1) 84%, rgba(86,103,78,1) 100%);
+            .text-about{
+                font-size: 4rem;
+            }
+            .about-text{
+                h5{
+                    width: auto;
+                }
+                .greetings{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    .rotate{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transform:rotate(45deg);
+                        color: rgb(84, 186, 80);
+                        width: 73px;
+                        height: 30px;
+                    }
+                }
+            }
         }
        } 
+    }
+}
+@media (max-width: 1400px) {
+    body{
+        #root{
+           .App{
+            #about{
+                margin-top: 5rem;
+                .text-about{
+                    font-size: 4rem;
+                }
+            }
+           } 
+        }
+    }
+}
+@media (max-width: 1200px) {
+    body{
+        #root{
+           .App{
+            #about{
+                margin-top: 10rem;
+                }
+            }
+           } 
+        }
+}
+@media (max-width: 1000px) {
+    body{
+        #root{
+           .App{
+            #about{
+                margin-top: 18rem;
+                }
+            }
+           } 
+        }
+}
+@media (max-width: 768px) {
+    .home{
+        .contain{
+            .icon-arrow-down{
+                right:42%;
+            }
+        } 
+    }
+    body{
+        #root{
+           .App{
+            #about{
+                margin-top: 3rem;
+                }
+            }
+        } 
     }
 }
 
@@ -165,14 +240,16 @@ body{
     .home{
         .contain{
             .back-to-top {
-                    bottom: 2.7rem;
+                bottom: 2.7rem;
             }
             .hiddin{
-                    position: fixed;
-                    bottom: -3rem;
+                position: fixed;
+                bottom: -3rem;
             }
             .icon-arrow-down{
-                    font-size: 2rem;
+                font-size: 2rem;
+                position:unset;
+                width: 411px;
             }
             .paragraph{
                 .link-image-demo{
@@ -189,5 +266,24 @@ body{
                 }
             }
         }
+    }
+    body{
+        #root{
+           .App{
+            #about{
+                margin-top: 4rem;
+                }
+            }
+        } 
+    }
+}
+@media (max-width: 450px) {
+    .home{
+        .contain{
+            .icon-arrow-down{
+                position: unset;
+                width: 390px;
+            }
+        } 
     }
 }

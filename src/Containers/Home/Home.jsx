@@ -62,11 +62,16 @@ const Home = () => {
         </Row>
         <Row id="about" xs={12} sm={12} md={12} xl={12} xxl={12}>
             <Row>
-                <h1>About</h1>
+                <h1 className="text-about">About</h1>
             </Row>
             <Row>
                 <span className="about-text">
-                    <b>Hola, soy Sergio.</b>
+                    <Row className="greetings">
+                        <h5>Hola, soy Sergio.</h5>
+                        <Row className='rotate'>
+                            <span className="icon-hand-paper-o"></span>
+                        </Row>
+                    </Row>
                     <br></br>
                     ¡Un apasionado del desarrollo web en constante evolución y aprendizaje! Mi viaje hacia el mundo del desarrollo web comenzó con un trasfondo completamente diferente en mi anterior trabajo en Novatec, donde nos enseñaron a hacer programas para robots FANUC, donde se genero mi entusiasmo por aprender este emocionante campo.
                 </span>
