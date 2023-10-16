@@ -71,7 +71,7 @@ const Home = () => {
                         <span className="icon-hand-paper-o"></span>
                     </Row>
                 </Row>
-                <Col xs={6} sm={6} md={6} xl={6} xxl={6}>
+                <Col xs={12} sm={12} md={6} xl={6} xxl={6}>
                     <span className="about-text">
                         <br></br>
                         ¡Un apasionado del desarrollo web en constante evolución y aprendizaje! Mi viaje hacia el mundo del desarrollo web comenzó con un trasfondo completamente diferente en mi anterior trabajo en Novatec, donde nos enseñaron a hacer programas para robots FANUC, donde se genero mi entusiasmo por aprender este emocionante campo.
@@ -84,7 +84,7 @@ const Home = () => {
                     <span className="i-monitor"></span>
                 </Col>
                 <Row className="experience">
-                    <h3>EXPERIENCE</h3>
+                    <h3>Experience</h3>
                     <br />
                     <br />
                     <ul>
@@ -93,7 +93,7 @@ const Home = () => {
                     </ul>
                 </Row>
                 <Row className="cursos">
-                    <h3>CURSOS</h3>
+                    <h3>Courses</h3>
                     <ul>
                         <span>FreeCodeCamp</span>
                         <li>Front End Development Libraries</li>

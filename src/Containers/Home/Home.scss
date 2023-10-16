@@ -269,6 +269,9 @@ body{
             #about{
                 margin-top: 3rem;
                 }
+                .icon-monitor::before{
+                    display: none;
+                }
             }
         } 
     }
@@ -276,6 +279,7 @@ body{
 
 @media (max-width: 540px) {
     .home{
+        height: 90vh;
         .contain{
             .back-to-top {
                 bottom: 2.7rem;
@@ -304,15 +308,6 @@ body{
                 }
             }
         }
-    }
-    body{
-        #root{
-           .App{
-            #about{
-                margin-top: 4rem;
-                }
-            }
-        } 
     }
 }
 @media (max-width: 450px) {
