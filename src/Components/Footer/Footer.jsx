@@ -8,7 +8,7 @@ const Footer = () =>{
             <p>
                SOY EL FOOTER
             </p>
-            <Row className="area" >
+            <Row className="area">
                 <ul className="circles">
                     <li></li>
                     <li></li>

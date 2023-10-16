@@ -2,6 +2,7 @@ import './home.scss'
 import { Row,Col,NavLink } from 'react-bootstrap'
 import {Image} from 'react-bootstrap'
 import img4 from '../../assets/img4.png'
+import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
 
@@ -103,6 +104,7 @@ const Home = () => {
                 </Row>
             </Row>
         </Row>
+        <Footer></Footer>
         </>
     )
 }
