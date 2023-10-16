@@ -65,34 +65,42 @@ const Home = () => {
                 <h1 className="text-about">About</h1>
             </Row>
             <Row>
-                <span className="about-text">
-                    <Row className="greetings">
-                        <h5>Hola, soy Sergio.</h5>
-                        <Row className='rotate'>
-                            <span className="icon-hand-paper-o"></span>
-                        </Row>
+                <Row className="greetings">
+                    <h5>Hola, soy Sergio.</h5>
+                    <Row className='rotate'>
+                        <span className="icon-hand-paper-o"></span>
                     </Row>
-                    <br></br>
-                    ¡Un apasionado del desarrollo web en constante evolución y aprendizaje! Mi viaje hacia el mundo del desarrollo web comenzó con un trasfondo completamente diferente en mi anterior trabajo en Novatec, donde nos enseñaron a hacer programas para robots FANUC, donde se genero mi entusiasmo por aprender este emocionante campo.
-                </span>
-                <span>
-                    Mi objetivo es seguir creciendo como desarrollador web, colaborar en proyectos emocionantes y contribuir al éxito de equipos y clientes. Estoy entusiasmado por la oportunidad de aplicar mis habilidades y mi pasión para crear experiencias web excepcionales.
-                </span>
-                <h3>EXPERIENCE</h3>
+                </Row>
+                <Col xs={6} sm={6} md={6} xl={6} xxl={6}>
+                    <span className="about-text">
+                        <br></br>
+                        ¡Un apasionado del desarrollo web en constante evolución y aprendizaje! Mi viaje hacia el mundo del desarrollo web comenzó con un trasfondo completamente diferente en mi anterior trabajo en Novatec, donde nos enseñaron a hacer programas para robots FANUC, donde se genero mi entusiasmo por aprender este emocionante campo.
+                        <br />
+                        <br />
+                        Mi objetivo es seguir creciendo como desarrollador web, colaborar en proyectos emocionantes y contribuir al éxito de equipos y clientes. Estoy entusiasmado por la oportunidad de aplicar mis habilidades y mi pasión para crear experiencias web excepcionales.
+                    </span>
+                </Col>
+                <Col className="icon-monitor" xs={6} sm={6} md={6} xl={6} xxl={6}>
+                    <span className="i-monitor"></span>
+                </Col>
+                <Row className="experience">
+                    <h3>EXPERIENCE</h3>
+                    <br />
+                    <br />
                     <ul>
                         <li>Programador Web en EZENIT DATA SL</li>
                         <li>Bootcamp Geekshubs Full Stack Developer</li>
                     </ul>
-                <h3>SKILLS</h3>
-                <span>
-                    UI/UX Design / Strategy / Product Management / User Research / Agile Methodologies / Collaboration / Design Sprints / Design Systems / HTML and CSS / CMS Design & Architecture / Webflow Development / Framer Development / Photography / Graphic Design
-                </span>
-                <h3>CURSOS</h3>
-                <span>
+                </Row>
+                <Row className="cursos">
+                    <h3>CURSOS</h3>
                     <ul>
-                        <li></li>
+                        <span>FreeCodeCamp</span>
+                        <li>Front End Development Libraries</li>
+                        <li>JavaScript Algorithms and Data Structures</li>
+                        <li>Responsive Web Design</li>
                     </ul>
-                </span>
+                </Row>
             </Row>
         </Row>
         </>
