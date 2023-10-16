@@ -216,7 +216,103 @@ body{
                 margin-top:2rem;
             }
         }
-       } 
+    } 
+        #technologies{
+            padding:0;
+            margin:0;
+            margin:auto;
+            width: 100%;
+            height: 100vh;
+            perspective: 1000px;
+            color: $white;
+            h1{
+                margin:0;
+                padding:0;
+            }
+            .card-father-html:hover .card-html, .card-father-css:hover .card-css, .card-father-js:hover .card-js,  .card-father-react:hover .card-react, .card-father-github:hover .card-github, .card-father-nodejs:hover .card-nodejs, .card-father-redux:hover .card-redux, .card-father-mysql:hover .card-mysql {
+                transform: rotateY(180deg);
+            }
+            .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
+                position:relative;
+                height: 200px;
+                width:200px;
+                transform-style: preserve-3d;
+                transition:all 600ms;
+                border:2px solid black;
+                border-radius: 5px;
+                -webkit-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+                -moz-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+                box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+                .card-back-html, .card-back-css, .card-back-js, .card-back-react, .card-back-github, .card-back-nodejs, .card-back-redux, .card-back-mysql{
+                    position:absolute;
+                    top:80px;
+                    left:49px;
+                    backface-visibility: hidden;
+                    transform-style: preserve-3d;
+                }
+                .card-back-css{
+                    left: 78px;
+                }
+                .card-back-js{
+                    left: 22px;
+                }
+                .card-back-react{
+                    left: 64px;
+                }
+                .card-back-github{
+                    left: 53px;
+                }
+                .card-back-nodejs{
+                    left: 38px;
+                }
+                .card-back-redux{
+                    left: 58px;
+                }
+                .card-back-mysql{
+                    left: 50px;
+                }
+                .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
+                    position:absolute;
+                    top:28px;
+                    left: 26px;
+                    backface-visibility: hidden;
+                    transform-style: preserve-3d;
+                    width: 150px;
+                    height: 150px;
+                    background-size: cover;
+                    background-position: center;  
+                }
+                .card-front-html{
+                    background-image:url(https://pawansingh.vercel.app/assets/html-d20c9482.png);
+                }
+                .card-front-css{
+                    background-image:url(https://pawansingh.vercel.app/assets/css-4040bdba.png);
+                }
+                .card-front-js{
+                    background-image:url(https://pawansingh.vercel.app/assets/javascript-d04a05c4.png);
+                }
+                .card-front-react{
+                    background-image:url(https://pawansingh.vercel.app/assets/react-e00184ba.png);
+                }
+                .card-front-github{
+                    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/200px-GitHub_Invertocat_Logo.svg.png);
+                }
+                .card-front-nodejs{
+                    background-image:url(https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png);
+                }
+                .card-front-redux{
+                    background-image:url(https://pawansingh.vercel.app/assets/html-d20c9482.png);
+                }
+                .card-front-mysql{
+                    background-image:url(https://pawansingh.vercel.app/assets/html-d20c9482.png);
+                }
+
+                .card-back-html, .card-back-css, .card-back-js, .card-back-react, .card-back-github, .card-back-nodejs, .card-back-redux, .card-back-mysql{
+                    transform: rotateY(180deg);
+                    transition: all 600ms;
+                }
+            }
+        }
     }
 }
 @media (max-width: 1400px) {
