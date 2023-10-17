@@ -1,14 +1,30 @@
 import "./Footer.scss"
-import {Row} from 'react-bootstrap'
+import {Row,Col} from 'react-bootstrap'
 
 const Footer = () =>{
 
     return(
         <Row className="footer">
-            <p>
-               SOY EL FOOTER
-            </p>
-            <h1>HOLA QUE TAL</h1>
+            <Row className="contact-me">
+                <Col>
+                    <h1>Mail para contactar</h1>
+                </Col>
+                <Col>
+                    <form>
+                        <fieldset>
+                            <Col>
+                                <input type="text" />
+                            </Col>
+                            <Col>
+                                <input type="text" />
+                            </Col>
+                            <Col>
+                                <input type="text" />
+                            </Col>
+                        </fieldset>
+                    </form>
+                </Col>
+            </Row>
             <Row className="area">
                 <ul className="circles">
                     <li></li>
