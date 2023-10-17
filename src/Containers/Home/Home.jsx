@@ -107,8 +107,8 @@ const Home = () => {
         <br />
         <Row id="technologies">
             <h1>Technologies</h1>
-            <Row className="targets">
-                <Col className="card-father-html w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+            <Row className="targets" xs={12} sm={12} md={12} xl={12} xxl={12}>
+                <Col className="card-father-html w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-html">
                         <Col className="card-front-html">
                         </Col>
@@ -119,7 +119,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-css w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-css w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-css">
                         <Col className="card-front-css">
                         </Col>
@@ -130,7 +130,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-js w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-js w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-js">
                         <Col className="card-front-js">
                         </Col>
@@ -141,7 +141,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-react w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-react w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-react">
                         <Col className="card-front-react">
                         </Col>
@@ -152,7 +152,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-github w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-github w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-github">
                         <Col className="card-front-github">
                         </Col>
@@ -163,7 +163,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-nodejs w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-nodejs w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-nodejs">
                         <Col className="card-front-nodejs">
                         </Col>
@@ -174,7 +174,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-redux w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-redux w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-redux">
                         <Col className="card-front-redux">
                         </Col>
@@ -185,7 +185,7 @@ const Home = () => {
                         </Col>
                     </Col>
                 </Col>
-                <Col className="card-father-mysql w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                <Col className="card-father-mysql w" xs={3} sm={3} md={4} xl={3} xxl={3}>
                     <Col className="card-mysql">
                         <Col className="card-front-mysql">
                         </Col>
