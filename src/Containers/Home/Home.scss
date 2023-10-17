@@ -225,6 +225,12 @@ body{
             height: 100vh;
             perspective: 1000px;
             color: $white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .targets{
+                width: 80%;
+            }
             h1{
                 margin:0;
                 padding:0;
@@ -237,12 +243,14 @@ body{
                 height: 200px;
                 width:200px;
                 transform-style: preserve-3d;
-                transition:all 600ms;
+                transition:all 1000ms;
                 border:2px solid black;
                 border-radius: 5px;
                 -webkit-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
                 -moz-box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
                 box-shadow: 0px 0px 17px 5px rgba(0,0,0,0.75);
+                background: linear-gradient(90deg, rgba(2,121,32,1) 20%, rgba(20,209,47,1) 50%, rgba(56,107,46,1) 79%, rgba(26,168,47,1) 100%);
+
                 .card-back-html, .card-back-css, .card-back-js, .card-back-react, .card-back-github, .card-back-nodejs, .card-back-redux, .card-back-mysql{
                     display: flex;
                     justify-content: center;
@@ -261,6 +269,7 @@ body{
                     height: 150px;
                     background-size: cover;
                     background-position: center;  
+                    transform: translateZ(60px);
                 }
                 .card-front-html{
                     background-image:url(https://pawansingh.vercel.app/assets/html-d20c9482.png);
@@ -279,17 +288,24 @@ body{
                 }
                 .card-front-nodejs{
                     background-image:url(https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png);
+                    height:133px;
+                    left:42px;
+                    width: 115px;
                 }
                 .card-front-redux{
-                    background-image:url(https://pawansingh.vercel.app/assets/html-d20c9482.png);
+                    background-image:url(https://keepcoding.io/wp-content/uploads/2023/08/image-151.png);
+                    width: 158px;
                 }
                 .card-front-mysql{
-                    background-image:url(https://pawansingh.vercel.app/assets/html-d20c9482.png);
+                    background-image:url(https://cdn-icons-png.flaticon.com/512/5968/5968313.png);
                 }
 
                 .card-back-html, .card-back-css, .card-back-js, .card-back-react, .card-back-github, .card-back-nodejs, .card-back-redux, .card-back-mysql{
                     transform: rotateY(180deg);
                     transition: all 600ms;
+                }
+                .body-card-back{
+                    transform: translateZ(60px);
                 }
             }
         }

@@ -107,95 +107,97 @@ const Home = () => {
         <br />
         <Row id="technologies">
             <h1>Technologies</h1>
-            <Col className="card-father-html" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-html">
-                    <Col className="card-front-html">
-                    </Col>
-                    <Col className="card-back-html">
-                        <Row className="body-card-back">
-                            <h1>HTML5</h1>
-                        </Row>
-                    </Col>
-                </Col>
-            </Col>
-            <Col className="card-father-css" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-css">
-                    <Col className="card-front-css">
-                    </Col>
-                    <Col className="card-back-css">
-                        <Row className="body-card-back">
-                            <h1>CSS</h1>
-                        </Row>
+            <Row className="targets">
+                <Col className="card-father-html w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-html">
+                        <Col className="card-front-html">
+                        </Col>
+                        <Col className="card-back-html">
+                            <Row className="body-card-back">
+                                <h1>HTML5</h1>
+                            </Row>
+                        </Col>
                     </Col>
                 </Col>
-            </Col>
-            <Col className="card-father-js" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-js">
-                    <Col className="card-front-js">
-                    </Col>
-                    <Col className="card-back-js">
-                        <Row className="body-card-back">
-                            <h1>JavaScript</h1>
-                        </Row>
-                    </Col>
-                </Col>
-            </Col>
-            <Col className="card-father-react" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-react">
-                    <Col className="card-front-react">
-                    </Col>
-                    <Col className="card-back-react">
-                        <Row className="body-card-back">
-                            <h1>React</h1>
-                        </Row>
+                <Col className="card-father-css w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-css">
+                        <Col className="card-front-css">
+                        </Col>
+                        <Col className="card-back-css">
+                            <Row className="body-card-back">
+                                <h1>CSS</h1>
+                            </Row>
+                        </Col>
                     </Col>
                 </Col>
-            </Col>
-            <Col className="card-father-github" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-github">
-                    <Col className="card-front-github">
-                    </Col>
-                    <Col className="card-back-github">
-                        <Row className="body-card-back">
-                            <h1>Github</h1>
-                        </Row>
-                    </Col>
-                </Col>
-            </Col>
-            <Col className="card-father-nodejs" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-nodejs">
-                    <Col className="card-front-nodejs">
-                    </Col>
-                    <Col className="card-back-nodejs">
-                        <Row className="body-card-back">
-                            <h1>Node JS</h1>
-                        </Row>
+                <Col className="card-father-js w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-js">
+                        <Col className="card-front-js">
+                        </Col>
+                        <Col className="card-back-js">
+                            <Row className="body-card-back">
+                                <h1>JavaScript</h1>
+                            </Row>
+                        </Col>
                     </Col>
                 </Col>
-            </Col>
-            <Col className="card-father-redux" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-redux">
-                    <Col className="card-front-redux">
-                    </Col>
-                    <Col className="card-back-redux">
-                        <Row className="body-card-back">
-                            <h1>Redux</h1>
-                        </Row>
-                    </Col>
-                </Col>
-            </Col>
-            <Col className="card-father-mysql" xs={12} sm={12} md={6} xl={2} xxl={2}>
-                <Col className="card-mysql">
-                    <Col className="card-front-mysql">
-                    </Col>
-                    <Col className="card-back-mysql">
-                        <Row className="body-card-back">
-                            <h1>MySQL</h1>
-                        </Row>
+                <Col className="card-father-react w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-react">
+                        <Col className="card-front-react">
+                        </Col>
+                        <Col className="card-back-react">
+                            <Row className="body-card-back">
+                                <h1>React</h1>
+                            </Row>
+                        </Col>
                     </Col>
                 </Col>
-            </Col>
-        </Row>
+                <Col className="card-father-github w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-github">
+                        <Col className="card-front-github">
+                        </Col>
+                        <Col className="card-back-github">
+                            <Row className="body-card-back">
+                                <h1>Github</h1>
+                            </Row>
+                        </Col>
+                    </Col>
+                </Col>
+                <Col className="card-father-nodejs w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-nodejs">
+                        <Col className="card-front-nodejs">
+                        </Col>
+                        <Col className="card-back-nodejs">
+                            <Row className="body-card-back">
+                                <h1>Node JS</h1>
+                            </Row>
+                        </Col>
+                    </Col>
+                </Col>
+                <Col className="card-father-redux w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-redux">
+                        <Col className="card-front-redux">
+                        </Col>
+                        <Col className="card-back-redux">
+                            <Row className="body-card-back">
+                                <h1>Redux</h1>
+                            </Row>
+                        </Col>
+                    </Col>
+                </Col>
+                <Col className="card-father-mysql w" xs={12} sm={12} md={6} xl={3} xxl={3}>
+                    <Col className="card-mysql">
+                        <Col className="card-front-mysql">
+                        </Col>
+                        <Col className="card-back-mysql">
+                            <Row className="body-card-back">
+                                <h1>MySQL</h1>
+                            </Row>
+                        </Col>
+                    </Col>
+                </Col>
+            </Row>
+            </Row>
         <Footer />
         </>
     )
