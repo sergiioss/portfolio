@@ -335,6 +335,11 @@ body{
                     margin-top: 10rem;
                 }
                 #technologies{
+                    .targets{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
                     .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
                         width: 150px;
                         height: 150px;
@@ -350,6 +355,9 @@ body{
                     }
                     .card-front-redux{
                         width: 94px;
+                    }
+                    .card-father-redux, .card-father-mysql{
+                        width: 33.33%;
                     }
                     .body-card-back{
                         h1{
@@ -383,11 +391,44 @@ body{
     body{
         #root{
            .App{
-            #about{
-                margin-top: 3rem;
+                #about{
+                    margin-top: 3rem;
                 }
                 .icon-monitor::before{
                     display: none;
+                }
+                #technologies{
+                    .targets{
+                        width: 100%;
+                        height: 50vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
+                        width: 100px;
+                        height: 100px;
+                    }
+                    .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
+                        width: 50px;
+                        height: 50px;
+                    }
+                    .card-front-nodejs{
+                        height:53px;
+                        left:23px;
+                        width: 50px;
+                    }
+                    .card-front-redux{
+                        width: 52px;
+                    }
+                    .card-father-redux, .card-father-mysql{
+                        width: 33.33%;
+                    }
+                    .body-card-back{
+                        h1{
+                            font-size: 1.2rem;
+                        }
+                    }
                 }
             }
         } 
@@ -445,16 +486,29 @@ body{
                     margin-top: 10rem;
                 }
                 #technologies{
+                    padding-left: 5px;
+                    margin:0;
+                    justify-content: unset;
+                    .row>* {
+                        margin:0;
+                        padding:0;
+                    }
                     .targets{
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
                         width: 100%;
                     }
+                    
                     .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
-                        width: 50px;
-                        height: 50px;
+                        width: 85px;
+                        height: 85px;
                     }
                     .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
-                        width: 45px;
-                        height: 45px;
+                        width: 50px;
+                        height: 50px;
+                        top:18px;
+                        left:17px;
                     }
                     .card-front-nodejs{
                         height:50px;
@@ -462,7 +516,10 @@ body{
                         width: 45px;
                     }
                     .card-front-redux{
-                        width: 45px;
+                        width: 53px;
+                    }
+                    .card-father-redux, .card-father-mysql{
+                        width: 33.33%;
                     }
                     .body-card-back{
                         h1{
