@@ -13,8 +13,38 @@
   text-align: center;
   position: relative;
   background:$black;
+  color: $white;
   .contact-me{
     z-index:1;
+    .inputs{
+        margin-bottom: 2rem;
+        label{
+            #name{
+                margin-top:0.4rem;
+            }
+        }
+    }
+    .labels{
+        margin-left: 1rem;
+    }
+    .form{
+        display: flex;
+        .message{
+            label{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                textarea{
+                    resize: none;
+                }
+            }
+        }
+        .button-submit{
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.4rem;
+        }
+    }
   }
   p{
     padding-left:0;
@@ -130,4 +160,37 @@
       border-radius: 50%;
   }
 }
+}
+
+@media (max-width: 773px){
+    .footer{
+        max-height: 44vh;
+        .contact-me{
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .message{
+                    label{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+                .button-submit{
+                    display: flex;
+                    justify-content: center;
+                    margin: 1rem;
+                }
+            }
+            .inputs{
+                label{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
 }
