@@ -1,7 +1,7 @@
 import "./Header.scss"
-import img2 from "../../assets/img2.png"
-import img3 from "../../assets/img3.png"
-import img4 from "../../assets/sergio.jpg"
+import img2 from "../../Assets/img2.png"
+import img3 from "../../Assets/img3.png"
+import img4 from "../../Assets/sergio.jpg"
 import {Row,Col } from 'react-bootstrap'
 import {NavLink} from 'react-bootstrap'
 
