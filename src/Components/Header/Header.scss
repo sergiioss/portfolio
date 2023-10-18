@@ -42,21 +42,29 @@
             cursor:pointer;
             margin-right: 30px;
             font-size:medium;
-            color:$text;
+            color:$white;
             transition:1s;
             .icon{
                 border-radius: 50%;
-                background-color:rgb(240, 37, 10);
+                background-color:$white;
                 width: 1.5em;
                 height: 1.5em;
                 margin-right:1rem;
             }
         }
         .github:hover{
-            color:#0fffa2;
+            color:rgb(139,132,198);
             .icon{
-                background-color: #0fffa2;
+                background-color: rgb(139,132,198);
             }
+        }
+    }
+}
+@media (max-width: 580px){
+    .header{
+        .links{
+            text-align:left;
+            margin-left: 1.2rem;
         }
     }
 }

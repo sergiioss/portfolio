@@ -15,7 +15,7 @@ body{
     }
     #root{
         z-index:-1;
-        background-color:rgb(45, 32, 144);
+        background: linear-gradient(180deg, rgba(16,7,85,1) 0%, rgb(69, 66, 98,1) 30%, rgba(139,132,198,1) 33%, rgba(22,12,93,1) 68%, rgba(45,32,144,1) 75%, rgba(61,41,209,1) 90%);
         overflow: hidden;
     }
 }
@@ -30,4 +30,5 @@ body{
     color:$text;
     position:relative;
 }
+
 

@@ -3,7 +3,7 @@
 @import 'variables/styles';
 
 .footer{
-  font-family: 'Pixelify Sans', cursive;
+  font-family: 'Kanit', sans-serif;
   max-height: 20vh;
   min-width: 100%;
   margin-top: 3rem;
@@ -12,8 +12,11 @@
   width:100vw;
   text-align: center;
   position: relative;
-  background:$black;
   color: $white;
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
   .contact-me{
     z-index:1;
     .inputs{
@@ -162,10 +165,26 @@
 }
 }
 
+@media (max-width: 1400px){
+    .footer{
+        .contact-me{
+            form{
+                .button-submit{
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 773px){
     .footer{
         max-height: 44vh;
+        width: 100%;
         .contact-me{
+            .row>* {
+                padding-left: 0;
+            }
             form{
                 display: flex;
                 flex-direction: column;
