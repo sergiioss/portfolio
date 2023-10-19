@@ -4,12 +4,10 @@
 
 .footer{
   font-family: 'Kanit', sans-serif;
-  max-height: 20vh;
-  min-width: 100%;
   margin-top: 3rem;
   overflow: hidden;
   bottom:0;
-  width:100vw;
+  width:100%;
   text-align: center;
   position: relative;
   color: $white;
@@ -18,7 +16,7 @@
     margin-right: 0;
   }
   .contact-me{
-/*     z-index:1; */
+    z-index:1;
     .inputs{
         margin-bottom: 2rem;
         label{
