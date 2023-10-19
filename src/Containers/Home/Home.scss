@@ -535,4 +535,20 @@ body{
         }
     }
 }
-
+@media (orientation:landscape){
+    body{
+        #root{
+            .App{
+                #technologies{
+                    margin:0;
+                    justify-content: center;
+                    .targets{
+                        .w{
+                            width: 25%;
+                        }
+                    }
+                }   
+            }
+        }
+    }
+}
