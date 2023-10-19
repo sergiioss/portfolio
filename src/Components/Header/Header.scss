@@ -1,9 +1,5 @@
 @import 'variables/styles';
 
-*{
-    margin:0;
-    padding:0;
-}
 .header{
     padding:0;
     margin:0;
@@ -16,10 +12,6 @@
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    .row{
-        margin:0;
-        padding:0;
-    }
     .photo{
         display: flex;
         justify-content: flex-start;

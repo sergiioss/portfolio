@@ -13,10 +13,6 @@
     }
 }
 
-*{
-    margin:0;
-    padding:0;
-}
 .home{
     padding:0;
     margin:0;
@@ -464,6 +460,7 @@ body{
     body{
         #root{
             .App{
+                padding-left: 20px;
                 #about{
                     padding: 0;
                     margin: 0;
