@@ -95,8 +95,8 @@ const Home = () => {
                 </Row>
                 <Row className="cursos">
                     <h3>Courses</h3>
+                    <h5>FreeCodeCamp</h5>
                     <ul>
-                        <span>FreeCodeCamp</span>
                         <li>Front End Development Libraries</li>
                         <li>JavaScript Algorithms and Data Structures</li>
                         <li>Responsive Web Design</li>

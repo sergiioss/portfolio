@@ -8,15 +8,13 @@
     display: flex;
     justify-content: center;
     align-items:center;
-    height: 10em;
     width:100%;
     color: rgb(200, 67, 5);
     font-weight: bolder;
     font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width:100%;
     box-sizing: border-box;
-    .row, .col{
+    .row{
         margin:0;
         padding:0;
     }
@@ -25,7 +23,7 @@
         justify-content: flex-start;
         align-items: center;
         font-size:2em;
-        padding-left:1rem;
+        margin-top: 1rem;
         .iconName{
             border-radius: 50%;
             width: 3em;
@@ -35,8 +33,7 @@
     }
     .links{
         text-align:right;
-        padding-left:0;
-        padding-right:0;
+        margin:0;
         .github{
             all:unset;
             cursor:pointer;
@@ -64,7 +61,25 @@
     .header{
         .links{
             text-align:left;
-            margin-left: 1.2rem;
+        }
+    }
+}
+
+@media (min-width:360px){
+    body{
+        #root{
+            .App{
+                .header{
+                    width: 100%;
+                    .row>*{
+                        padding: 0;
+                        margin: 0;
+                    }
+                    .links{
+                        margin-top:1rem;
+                    }
+                }
+            }
         }
     }
 }

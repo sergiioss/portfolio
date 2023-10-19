@@ -3,38 +3,51 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 body{
-    #root::before{
-        content:"";
-        position:absolute;
-        width: 100%;
-        height: 100vh;
-        background-image:url(https://fondosmil.co/fondo/52739.jpg);
-        opacity:0.1;
-    }
     #root{
-        z-index:-1;
-        background: linear-gradient(180deg, rgba(16,7,85,1) 0%, rgb(69, 66, 98,1) 30%, rgba(139,132,198,1) 33%, rgba(22,12,93,1) 68%, rgba(45,32,144,1) 75%, rgba(61,41,209,1) 90%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        position: relative;
+        background: radial-gradient(circle, rgba(16,7,85,1) 0%, rgba(18,9,97,1) 0%, rgba(139,132,198,1) 0%, rgba(22,12,93,1) 0%, rgba(12,11,24,1) 0%, rgba(90,84,136,1) 100%);
+    }
+    #root::before{
+        content: "";
+        position: absolute;
+        background-image:url(https://fondosmil.co/fondo/52739.jpg);
+        background-position:center;
+        background-size:cover;
+        background-repeat: no-repeat;
         overflow: hidden;
+        opacity: 0.2;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .App{
+        margin-top: 1rem;
+        color:$text;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
     }
 }
-.App{
-    width:100vw;
-    padding:0;
-    margin:0;
-    display:flex;
-    justify-content: start;
-    align-items: center;
-    flex-direction:column;
-    color:$text;
-    position:relative;
-}
-@media (max-width: 450px){
+
+@media (min-width:360px){
     body{
-        #root{
-            background: linear-gradient(180deg, rgba(16,7,85,1) 22%, rgb(55, 52, 79) 26.5%, rgb(175, 170, 216) 27%, rgba(22,12,93,1) 28%, rgba(45,32,144,1) 75%, rgba(61,41,209,1) 90%);
-            overflow: hidden;
+        .App{
+            width: 100%;
+            padding: 0 5px;
+            margin: 0;
+            .row{
+                padding: 0;
+                margin: 0;
+            }
         }
     }
 }
