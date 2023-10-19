@@ -57,15 +57,8 @@
         }
     }
 }
-@media (max-width: 580px){
-    .header{
-        .links{
-            text-align:left;
-        }
-    }
-}
 
-@media (min-width:360px){
+@media (max-width:760px){
     body{
         #root{
             .App{

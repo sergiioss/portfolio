@@ -314,162 +314,122 @@ body{
         }
     }
 }
-/* @media (max-width: 1400px) {
+
+@media (max-width: 1600px) {
     body{
         #root{
-           .App{
-            #about{
-                margin-top: 11rem;
-                .text-about{
-                    font-size: 4rem;
+            .App{
+                .home{
+                    .name{
+                        .text-name{
+                            padding: 0;
+                        }
+                        .title{
+                            padding: 0;
+                        }
+                        .subtitle{
+                            .text-subtitle{
+                                padding: 0;
+                            }
+                        }
+                    }
                 }
+                #technologies{
+                    .targets{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .card-father-redux, .card-father-mysql{
+                            width: 25%;
+                        }
+                    }
+                    .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
+                        width: 180px;
+                        height: 180px;
+                        margin-left: 1rem;
+                    }
+                    .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
+                        width: 140px;
+                        height: 140px;
+                        top:18px;
+                        left:17px;
+                    }
+                    .card-front-nodejs{
+                        height:129px;
+                        left:33px;
+                        width: 114px;
+                    }
+                    .card-front-redux{
+                        width: 146px;
+                    }
+                    .body-card-back{
+                        h1{
+                            font-size: 2rem;
+                        }
+                    }
+                }  
             }
-           } 
         }
-    }
-}
-@media (max-width: 1200px) {
-    body{
-        #root{
-           .App{
-                #technologies{
-                    .targets{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        width: unset;
-                    }
-                    .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
-                        width: 150px;
-                        height: 150px;
-                    }
-                    .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
-                        width: 90px;
-                        height: 90px;
-                    }
-                    .card-front-nodejs{
-                        height:100px;
-                        left:30px;
-                        width: 90px;
-                    }
-                    .card-front-redux{
-                        width: 94px;
-                    }
-                    .card-father-redux, .card-father-mysql{
-                        width: 33.33%;
-                    }
-                    .body-card-back{
-                        h1{
-                            font-size: 1.8rem;
-                        }
-                    }
-                }
-            }
-        } 
-    }
-}
-@media (max-width: 1000px) {
-    .home{
-        .contain{
-            .paragraph{
-                .link-image-demo{
-                    bottom:35px;
-                    left:35px;
-                }
-                .link-image-github{
-                    bottom:35px;
-                    right:35px;
-                }
-            }
-        } 
-    }
-}
-@media (max-width: 768px) {
-    .home{
-        .contain{
-            .icon-arrow-down{
-                right:42%;
-            }
-        } 
-    }
-    body{
-        #root{
-           .App{
-                .icon-monitor::before{
-                    display: none;
-                }
-                #technologies{
-                    .targets{
-                        width: unset;
-                        height: 50vh;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                    }
-                    .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
-                        width: 100px;
-                        height: 100px;
-                        margin-left: 2rem;
-                    }
-                    .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
-                        width: 50px;
-                        height: 50px;
-                    }
-                    .card-front-nodejs{
-                        height:53px;
-                        left:23px;
-                        width: 50px;
-                    }
-                    .card-front-redux{
-                        width: 52px;
-                    }
-                    .card-father-redux, .card-father-mysql{
-                        width: 33.33%;
-                    }
-                    .body-card-back{
-                        h1{
-                            font-size: 1.2rem;
-                        }
-                    }
-                }
-            }
-        } 
     }
 }
 
-@media (max-width: 540px) {
-    .home{
-        .contain{
-            .back-to-top {
-                bottom: 2.7rem;
-            }
-            .hiddin{
-                position: fixed;
-                bottom: -3rem;
-            }
-            .icon-arrow-down{
-                font-size: 2rem;
-                position:unset;
-                width: 411px;
-            }
-            .paragraph{
-                .link-image-demo{
-                    bottom:31px;
-                    left:36px;
-                    width: 30%;
-                    font-size:0.75rem;
+@media (max-width: 992px) {
+    body{
+        #root{
+            .App{
+                .header{
+                    .row>* {
+                        padding: 0;
+                        margin: 0;
+                    }
                 }
-                .link-image-github{
-                    bottom:31px;
-                    right:36px;
-                    width: 30%;
-                    font-size:0.75rem;
+                
+                #technologies{
+                    .targets{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .card-father-redux, .card-father-mysql{
+                            width: 25%;
+                        }
+                    }
+                    .card-html, .card-css, .card-js, .card-react, .card-github, .card-nodejs, .card-redux, .card-mysql{
+                        width: 120px;
+                        height: 120px;
+                        margin-left: 1rem;
+                    }
+                    .card-front-html, .card-front-css, .card-front-js, .card-front-react, .card-front-github, .card-front-nodejs, .card-front-redux, .card-front-mysql{
+                        width: 80px;
+                        height: 80px;
+                        top:18px;
+                        left:17px;
+                    }
+                    .card-front-nodejs{
+                        height:50px;
+                        left:20px;
+                        width: 45px;
+                    }
+                    .card-front-redux{
+                        width: 53px;
+                    }
+                    .body-card-back{
+                        h1{
+                            font-size: 1.4rem;
+                        }
+                    }
                 }
+                #about{
+                    .icon-monitor::before{
+                        display: none;
+                    }
+                }   
             }
         }
     }
-} */
-@media (min-width: 360px) {
+}
+
+
+@media (max-width: 760px) {
     .home{
         .row>*{
             padding: 0;
@@ -543,6 +503,7 @@ body{
                         width: 100%;
                         .w{
                             margin-bottom: 2rem;
+                            width: 33.33%;
                         }
                     }
                     
@@ -564,9 +525,6 @@ body{
                     }
                     .card-front-redux{
                         width: 53px;
-                    }
-                    .card-father-redux, .card-father-mysql{
-                        width: 33.33%;
                     }
                     .body-card-back{
                         h1{
