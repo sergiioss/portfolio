@@ -176,6 +176,7 @@ body{
             }
             .text-about{
                 font-size: 4rem;
+                margin-top: 8rem;
             }
             h5{
                 width: auto;
@@ -396,7 +397,7 @@ body{
         #root{
            .App{
                 #about{
-                    margin-top: 18rem;
+                    margin-top: 4rem;
                 }
             }
         } 
@@ -517,6 +518,9 @@ body{
             margin-right: 0;
                 #about{
                     margin-top: 0rem;
+                    .text-about{
+                        margin-top: 0;
+                    }
                 }
                 #technologies{
                     padding-left: 5px;
