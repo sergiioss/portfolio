@@ -65,6 +65,7 @@
                         margin: 0;
                     }
                     .links{
+                        flex-direction: row;
                         margin-top:1rem;
                         padding: 0;
                         text-align: left;
@@ -74,7 +75,7 @@
         }
     }
 }
-@media (orientation:landscape){
+@media (max-width: 640px) and (orientation:landscape){
     body{
         #root{
             .App{
