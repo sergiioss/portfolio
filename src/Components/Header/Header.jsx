@@ -14,10 +14,8 @@ const Header = () => {
                     <img className="iconName" src={img4} />
                 </Col>
                 <Col className="links" xs={12} sm={6} md={6} xl={6}>
-                    <p>
-                        <NavLink className="github" href='https://github.com/sergiioss' target="blank"><img className="icon" href='https://github.com/sergiioss' src={img2} />Github</NavLink>
-                        <NavLink className="github" href='https://www.linkedin.com/in/sergiosotosousa' target="blank"><img className="icon" src={img3} />Linkedin</NavLink>
-                    </p>
+                    <NavLink className="github" href='https://github.com/sergiioss' target="blank"><img className="icon"href='https://github.com/sergiioss' src={img2} />Github</NavLink>
+                    <NavLink className="github" href='https://www.linkedin.com/in/sergiosotosousa' target="blank"><img className="icon" src={img3} />Linkedin</NavLink>
                 </Col>
         </Row>
     )

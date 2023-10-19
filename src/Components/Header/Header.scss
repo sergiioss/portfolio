@@ -74,3 +74,20 @@
         }
     }
 }
+@media (orientation:landscape){
+    body{
+        #root{
+            .App{
+                .header{
+                    .links{
+                        display: flex;
+                        flex-direction: column;
+                        gap:1rem;
+                        padding: 0;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
