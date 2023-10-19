@@ -59,7 +59,7 @@
         .icon-arrow-down{
             position:absolute;
             right: 47%;
-            top:620px;
+            top:690px;
             color: $white;
             font-size: 2rem;
             text-align: center;
@@ -324,7 +324,7 @@ body{
         #root{
            .App{
             #about{
-                margin-top: 5rem;
+                margin-top: 10rem;
                 .text-about{
                     font-size: 4rem;
                 }
@@ -338,7 +338,7 @@ body{
         #root{
            .App{
                 #about{
-                    margin-top: 10rem;
+                    margin-top: 15rem;
                 }
                 #technologies{
                     .targets{
