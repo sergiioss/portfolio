@@ -3,6 +3,9 @@ import { Row,Col,NavLink } from 'react-bootstrap'
 import {Image} from 'react-bootstrap'
 import img4 from '../../Assets/img4.png'
 import Footer from '../../Components/Footer/Footer'
+import img5 from '../../Assets/backend-express.png'
+import img6 from '../../Assets/laravel.png'
+import img7 from '../../Assets/tienda.png'
 
 const Home = () => {
 
@@ -33,30 +36,29 @@ const Home = () => {
                     <NavLink className="link-image-github" href="https://github.com/sergiioss/cambia_tu_fisico" target="_blank">Github</NavLink>
                 </Col>
                 <Col className="paragraph" xs={6} sm={6} md={4} xl={4} xxl={4}>
-                    <Image src={img4} className="img"/>
-                    <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink>
-                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Github</NavLink>
-
+                    <Image src={img5} className="img"/>
+                    {/* <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink> */}
+                    <NavLink className="link-image-github" href="https://github.com/sergiioss/videoclub/" target="_blank" >Github</NavLink>
                 </Col>
                 <Col className="paragraph" xs={6} sm={6} md={4} xl={4} xxl={4}>
-                    <Image src={img4} className="img"/>
-                    <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink>
-                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Github</NavLink>
+                    <Image src={img6} className="img"/>
+                    {/* <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink> */}
+                    <NavLink className="link-image-github" href="https://github.com/sergiioss/Ropaon" target="_blank" >Github</NavLink>
                 </Col>
                 <Col className="paragraph" xs={6} sm={6} md={4} xl={4} xxl={4}>
-                    <Image src={img4} className="img"/>
-                    <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink>
-                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Github</NavLink>
+                    <Image src={img7} className="img"/>
+                    <NavLink className="link-image-demo" href="https://ropaon-frontend-m24t.vercel.app/" target="_blank" >Demo</NavLink>
+                    <NavLink className="link-image-github" href="https://github.com/sergiioss/Ropaon_Frontend" target="_blank" >Github</NavLink>
                 </Col>
                 <Col className="paragraph" xs={6} sm={6} md={4} xl={4} xxl={4}>
-                    <Image src={img4} className="img" sm={4} md={4} xl={4} xxl={4}/>
-                    <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink>
-                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Github</NavLink>
+                    <Image src="https://w7.pngwing.com/pngs/196/625/png-transparent-business-administration-afacere-organization-management-computer-software-market-text-public-relations-computer-wallpaper.png" className="img" sm={4} md={4} xl={4} xxl={4}/>
+                    {/* <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink>
+                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Github</NavLink> */}
                 </Col>
                 <Col className="paragraph" xs={6} sm={6} md={4} xl={4} xxl={4}>
-                    <Image src={img4} className="img"/>
-                    <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank">Demo</NavLink>
-                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank">Github</NavLink>
+                    <Image src="https://w7.pngwing.com/pngs/196/625/png-transparent-business-administration-afacere-organization-management-computer-software-market-text-public-relations-computer-wallpaper.png" className="img"/>
+                    {/* <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank">Demo</NavLink>
+                    <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank">Github</NavLink> */}
                 </Col>
                 <NavLink href="#about" className="icon-arrow-down"></NavLink>
             </Row>
