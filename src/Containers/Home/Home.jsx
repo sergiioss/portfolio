@@ -6,6 +6,7 @@ import Footer from '../../Components/Footer/Footer'
 import img5 from '../../Assets/backend-express.png'
 import img6 from '../../Assets/laravel.png'
 import img7 from '../../Assets/tienda.png'
+import conecta4 from '../../Assets/conecta4.png'
 
 const Home = () => {
 
@@ -51,7 +52,7 @@ const Home = () => {
                     <NavLink className="link-image-github" href="https://github.com/sergiioss/Ropaon_Frontend" target="_blank" >Github</NavLink>
                 </Col>
                 <Col className="paragraph" xs={6} sm={6} md={4} xl={4} xxl={4}>
-                    <Image src="https://w7.pngwing.com/pngs/196/625/png-transparent-business-administration-afacere-organization-management-computer-software-market-text-public-relations-computer-wallpaper.png" className="img" sm={4} md={4} xl={4} xxl={4}/>
+                    <Image src={conecta4} className="img" sm={4} md={4} xl={4} xxl={4}/>
                     {/* <NavLink className="link-image-demo" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Demo</NavLink>
                     <NavLink className="link-image-github" href="https://cambia-tu-fisico.vercel.app/" target="_blank" >Github</NavLink> */}
                 </Col>
